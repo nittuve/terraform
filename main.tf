@@ -3,7 +3,7 @@ data "aws_ami" "myami" {
   owners      = ["amazon"]
   filter {
     name   = "name"
-    values = ["amzn-ami-hvm-*-x86_64-gp2"]
+    values = ["amzn2-ami-hvm-*"]
   }
   filter {
     name   = "virtualization-type"
